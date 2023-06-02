@@ -1,0 +1,38 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    text-align: center;
+}
+h3{
+    color:brown;
+}
+.c1{
+    float:left;
+    width:32%;
+    border:3px solid blue;
+}
+.f1{
+    padding:20px;
+}
+.fg{
+    padding-bottom: 20px;
+}
+.f1 label{
+    display:block;
+}
+.f1 input[type="text"]{
+ padding:10px;
+ width:80%;
+}
+.button{
+    background-color: #333;
+    border-radius: 10px;
+    color:white;
+    padding:10px;
+    border: none;
+}
+.button:hover{
+    background-color: red;
+    color:black;
+}

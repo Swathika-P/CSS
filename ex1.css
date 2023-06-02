@@ -1,0 +1,74 @@
+body{
+    font-family: arial;
+    font-size: 18px;
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+    color:rgb(13, 175, 123)
+}
+h2{
+    color:hotpink;
+}
+h3{
+    color:brown;
+}
+p{
+    line-height:0.5cm;
+}
+.c1{
+    color:#EEE11A;
+    background-color: black;
+    font-family:Tahoma;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1cm;
+    word-spacing: 0.3cm;
+}
+.c2{
+    color:aliceblue;
+    background-color:blueviolet;
+    border: blue 5px solid;
+    padding:10px;
+}
+.c3{
+   color: blue;
+   background-color:lightcoral;
+   margin:5px 10px 10px 5px;
+   border-left: black 5px solid;
+   border-right: black 5px solid;
+}
+.c4{
+    border:1px red solid;
+    border-radius: 15px;
+}
+.c4 li{
+    padding-bottom: 9px;
+    border-bottom: olive 4px dotted;
+}
+.c4 ul{
+    list-style-image:url('images/watermelon.png');
+}
+a{
+    text-decoration: none;
+}
+a:hover
+{
+    color:aqua;
+}
+a:active{
+    color:green;
+}
+a:visited{
+    color: blue;
+}
+.container
+{
+   width:80%;
+   margin:auto;
+   margin-top: 100px;
+   margin-bottom: 20px;
+   margin-left: 30px;
+   margin-right: 30px;
+}
