@@ -1,0 +1,96 @@
+<html>
+    <head>
+    <title>FLEXBOX</title>
+    </head>
+    <body>
+    <div class ="container1">
+        <div class="box1">
+            <h3>Box1</h3>
+            <p>Hi this is a box where you can type anything of your wish</p>
+        </div>
+
+        <div class="box2">
+            <h3>Box2</h3>
+            <p>Hi this is a box where you can type anything of your wish</p>
+        </div>
+
+        <div class="box3">
+            <h3>Box3</h3>
+            <p>Hi this is a box where you can type anything of your wish</p>
+        </div>
+    </div>
+    <div class ="container2">
+        <div class="box007">
+            <h3>Box1</h3>
+            <p>Hi this is a box where you can type anything of your wish</p>
+            <p>Hi this is a box where you can type anything of your wish</p>
+        </div>
+
+        <div class="box007">
+            <h3>Box2</h3>
+            <p>Hi this is a box where you can type anything of your wish</p>
+            <p>Hi this is a box where you can type anything of your wish</p>
+        </div>
+
+        <div class="box007">
+            <h3>Box3</h3>
+            <p>Hi this is a box where you can type anything of your wish</p>
+            <p>Hi this is a box where you can type anything of your wish</p>
+        </div>
+    </div>
+    <!--Using css and html in same file so use style tag -->
+    <!--For a responsive website (if minimum width is 468px then readapt)-->
+    <style>
+        body{
+            background-color:royalblue;
+        }
+        h3{
+            color: darkmagenta;
+        }
+        .container1 div,.container2 div{
+         border: 1px #ccc solid;
+         padding:10px;
+        }
+        @media(min-width:468px){
+        .container1{
+            display:flex;
+            align-items: center;    
+        }
+        .container2{
+            display:flex; 
+            justify-content:space-between; 
+        }}
+        .box007{
+            width: 25%;
+        }
+        .box1{
+           flex:2;
+           order:2;
+        }
+        .box2{
+            flex:1;
+            order:1;
+        }
+        .box3{
+            flex:1;
+            order:3;
+        }
+ </style>
+ <br><br><br>
+ <hr>
+ <h3>What has been done here????</h3>
+ <ul>
+    <li><b><i>display:flex</i></b> - used to display texts in boxes</li>
+    <li><b><i>flex:number</i></b> - divide the boxes in <b>ratio</b></li>
+    <li><b><i>order:number</i></b> - order it</li>
+    <li><b><i>align-items: flex-start</i></b> - starts from <u>start</u> and freespace is reduced</li>
+    <li><b><i>align-items: flex-end</i></b> - starts from <u>end</u> and freespace is reduced</li>
+    <li><b><i>align-items: center</i></b> - starts from <u>center</u> and freespace is reduced</li>
+    <li><b><i>flex-direction: column</i></b> - display columnwise</li>
+    <li><b><i>align-items: start</i></b> - aligns the box on  <u>start</u></li>
+    <li><b><i>align-items: end</i></b> - aligns the box on  <u>end</u></li>
+    <li><b><i>justify-content:center</i></b> - aligns the box on <u>center</u></li>
+    <li><b><i>justify-content:space-between</i></b> - freespace b/w boxes</li>
+</ul>
+ </body>
+</html>
