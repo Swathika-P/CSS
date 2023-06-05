@@ -6,21 +6,13 @@ body{
     padding: 20px;
     border-radius: 10px;
 }
-.fname{
+.general label{
+    display: block;
+}
+.gen{
     padding-bottom: 10px;
     border-radius: 10px;
-}
-.lname{
-        padding-bottom: 10px;
-        border-radius: 10px;
-}
-.email{
-    padding-bottom: 10px;
-    border-radius: 10px;
-}
-.pwd{
-    padding-bottom: 10px;
-    border-radius: 10px;
+
 }
 .button{
     background-color: blue;
