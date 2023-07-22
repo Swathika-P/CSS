@@ -1,0 +1,81 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        body
+        {
+            color:blue;
+            background-color: blanchedalmond;
+        }
+        p.dotted{border-style:dotted;border-width: 10px;border-color: aquamarine;}
+        p.solid{border-style:solid;border-width: 10px;width: 200px;border-color:rgb(167, 113, 228);}
+        p.dashed{border-style:dashed;border-width: 10px 20px;border-color: rgb(197, 103, 40);}
+        h1{
+            text-decoration: underline;
+            /*line-through ,underline, overline underline;*/
+            text-decoration-color:red;
+            text-decoration-style:dotted;
+            text-decoration-style:double;
+            text-decoration-thickness: 5px;
+        }
+        h2{
+            /*text-align : center*/
+            /*center,left,right*/
+            direction:rtl;
+            unicode-bidi:bidi-override;
+        }
+        p.a{
+           text-align-last:center;
+        }
+        img.a{
+            vertical-align:text-top;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Without container</h1>
+        <p>
+            An <img class="a" src="shrey.jpg" width="25" height="20">image between words
+        </p>
+    </div>
+    <div class="w3-container w3-red">
+        <h2>With container</h2>
+        <p class="a">
+            SchemesInfo is a comprehensive website that serves as a one-step platform for accessing and
+discovering a wide range of schemes across different categories.
+With an intuitive and user-friendly interface, SchemesInfo makes it easy for users to explore, and
+access schemes that align with their specific needs and interests from the Government sites. 
+        </p>
+    </div>
+    <div class="w3-container w3-violet">
+        <h2>With container</h2>
+        <p>
+            The w3-container is very important one
+        </p>
+    </div>
+    <div class="w3-panel w3-leftbar w3-sand w3-xxlarge w3-serif">
+        <p>
+            panel
+        </p>
+    </div>
+    <div class="w3-container w3-panel w3-blue w3-round w3-xlarge">
+        <p>
+           panel
+        </p>
+    </div>
+    <div class="w3-container w3-panel  w3-border-green w3-round w3-xlarge">        
+        <p>
+           panel 2
+        </p>
+    </div>
+    <p class="dotted">A dotted Border</p>
+    <p class="dashed">A dashed Border</p>
+    <p class="solid">A solid Border</p>
+</body>
+</html>
